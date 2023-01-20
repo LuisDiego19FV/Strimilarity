@@ -130,6 +130,8 @@ If you want to get a matrix of similarities between multiple sentences Strimilar
 
 This function returns a matrix with the weighted avarages of the lexical and semantic similarities between sentences.
 
+This function also has the w_lexical and w_semantic optional parameters. This represent the weight for the lexical similarity and the weight of the semantic similarity, used in calculating the weighted avarage to get to a final similarity score.
+
 Get similarity:
 
 ```python
